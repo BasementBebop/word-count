@@ -15,7 +15,7 @@ get('/display') do
   if @result < 2 and @result > 0
     @plural = ""
   end
-  @error = ""
+  @error = "I'm a computer!"
   if @word == ""
     @error = "Maybe it appears 0 times because you didn't put in a word..."
   elsif @text_block == ""

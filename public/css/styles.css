@@ -1,9 +1,17 @@
 body {
-  background-color: #aa3939;
+  background-color: #efefef;
+}
+
+p {
+  padding: 5px;
+  border-radius: 5px;
+  align: center;
 }
 
 h1 {
-  color: white;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .form-group {
@@ -14,4 +22,5 @@ h1 {
 
 .btn {
   float: right;
+  tmargin: 30px
 }
