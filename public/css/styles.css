@@ -1,0 +1,17 @@
+body {
+  background-color: #aa3939;
+}
+
+h1 {
+  color: white;
+}
+
+.form-group {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.btn {
+  float: right;
+}
