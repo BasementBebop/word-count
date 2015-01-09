@@ -23,4 +23,8 @@ describe('String#word_count') do
     expect(("Mantis").word_count("mantis")).to(eq(1))
   end
 
+  it("recognizes common punctuation marks in the object and disregards them and returns the amount of times the argument appears") do |variable|
+    expect(("!?mantis..").word_count("mantis")).to(eq(1))
+  end
+
 end
