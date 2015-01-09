@@ -10,5 +10,9 @@ end
 get('/display') do
   @result = params.fetch('text_block').word_count(params.fetch('word'))
   @word = params.fetch('word')
+  @plural = "s"
+  if @result < 2
+    @plural = ""
+  end
   erb(:display)
 end
