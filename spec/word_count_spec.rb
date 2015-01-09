@@ -22,4 +22,5 @@ describe('String#word_count') do
   it("recognizes the argument in the object regardless of capitalization and returns the amount of times it appears") do
     expect(("Mantis").word_count("mantis")).to(eq(1))
   end
+
 end
