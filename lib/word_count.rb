@@ -1,9 +1,9 @@
 class String
   define_method(:word_count) do |word_to_count|
     total_instances = 0
-    texts = self.split(" ")
+    texts = self.downcase().split(" ")
     texts.each() do |text_word|
-      if text_word == word_to_count
+      if text_word == word_to_count.downcase()
         total_instances += 1
       end
     end
