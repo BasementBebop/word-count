@@ -16,10 +16,9 @@ get('/display') do
     @plural = ""
   end
   @error = ""
-  if @word = ""
+  if @word == ""
     @error = "Maybe it appears 0 times because you didn't put in a word..."
-  end
-  if @text_block = ""
+  elsif @text_block == ""
     @error = "Next time actually putting in text might be nice..."
   end
   erb(:display)
