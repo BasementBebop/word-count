@@ -14,4 +14,8 @@ describe('String#word_count') do
   it("recognizes the argument is not listed when the object is two of the arguement with no spaces") do
     expect(("mantismantis").word_count("mantis")).to(eq(0))
   end
+
+  it("recognizes the argument is listed in the object when other words are listed in the object and returns the amount of times it appears") do
+    expect(("the mantis is praying").word_count("mantis")).to(eq(1))
+  end
 end
