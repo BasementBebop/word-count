@@ -1,5 +1,5 @@
 GEM
-  remote: https://api.rubygems.org/
+  remote: https://rubygems.org/
   specs:
     backports (3.6.4)
     multi_json (1.10.1)
